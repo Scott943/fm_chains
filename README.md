@@ -1,5 +1,5 @@
 # fm_chains
-Aims to optimise the [NRich factors and multiples chain problem](https://www.google.com) using a simple backtracking search. 
+Aims to optimise the [NRich factors and multiples chain problem](https://nrich.maths.org/factorsandmultiples) using a simple backtracking search. 
 
 Uses a heuristic similar to MRV (Minimum Remaining Value) to provide a large speedup: at each recursion step, we select the next candidate in the chain by how many factors & multiples that candidate has. 
 
